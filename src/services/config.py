@@ -10,7 +10,7 @@ ROOT_DIR = Path(__file__).resolve().parents[2]
 DATA_DIR = ROOT_DIR / "data" / "processed"
 MODELS_DIR = ROOT_DIR / "models"
 NOTEBOOKS_DIR = ROOT_DIR / "notebooks"
-OUTPUTS_DIR = NOTEBOOKS_DIR / "outputs"
+OUTPUTS_DIR = ROOT_DIR / "data" / "outputs"
 SRC_DIR = ROOT_DIR / "src"
 
 # === Load Secrets from .env File ===
